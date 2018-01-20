@@ -32,28 +32,21 @@ a {
 	padding-left: 20px;
 	color: white;
 	top: 0;
-	right: 40;
+	
+	
 }
 
-#fixed {
+aside {
 	background-color: #ffffff;
-	position: fixed;
-	padding: 40px;
 	text-align: center;
-	top:0;
-	right: 60;
-}
+	}
 
 img {
 	float: left;
 }
-.wrapper {
-	width: 1090px;
-	margin: 0 auto 0 auto;
-	padding: 20px;
-}
 
 .footer {
+	clear: both;
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -62,8 +55,9 @@ img {
 	color: #777777;
 	text-align: center;
 	padding: 30px;
-	border-top-style:solid;
-	border: #4aaaa5;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width: 8px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }	
 
