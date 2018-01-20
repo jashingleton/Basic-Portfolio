@@ -6,6 +6,11 @@ body {
 	background-image: url("../images/pink_rice.png");
 	margin: 0;
 	padding: 0;
+	color: #777777;
+}
+
+a {
+	color: #777777;
 }
 
 #relative {
@@ -54,9 +59,11 @@ img {
 	bottom: 0;
 	width: 100%;
 	background-color: #666666;
-	color: white;
+	color: #777777;
 	text-align: center;
 	padding: 30px;
+	border-top-style:solid;
+	border: #4aaaa5;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }	
 
