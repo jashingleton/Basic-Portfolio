@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
 	background-image: url("../images/pink_rice.png");
 	margin: 0;
@@ -12,8 +13,7 @@ body {
 
 div.container {
 	background-color: #ffffff;
-	margin: 0;
-	padding: 0;
+	margin: auto;
 	width:100%;
 	height: 90px;
 	border-bottom: solid;
@@ -37,26 +37,71 @@ ul {
 	float: right;
 	color: #777777;
 	position: relative;
-	right: 240px;
+	right: 450px;
 	top: 20px;
+	font-size: 16px;
+}
+
+ul a {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 5px;
+}
+
+ul a:hover {
+	 background: #4aaaa5;
+  	 color: #fff;
 }
 
 
 a {
-	clear: both;
 	color: #777777;
-}
+	display: inline-block;
+}  
 
 article {
+	float: left;
 	background-color: #ffffff;
+	width: 650px;
+	padding: 1em;
 	margin-left: 160px;
 	margin-top: 40px;
 	margin-right: 553px;
-	padding: 32px;
-	line-height: 30px;
 	border-style: solid;
 	border-color: #dddddd;
+	line-height: 30px;
 }
+
+.me {
+	float: left;
+	width: 200px;
+    height: 206px;
+    background: white;
+    margin: 1em;
+}
+
+
+aside {
+	float: right;
+	background-color: #ffffff;
+	padding: 1em;
+	width: 270px;
+	height: 200px;
+	text-align: center;
+	border-style: solid;
+	border-color: #dddddd;
+	margin: auto;
+	position: fixed;
+	bottom: 430px;
+	right: 430px;
+	}
+
+.connect {
+    width: 160px;
+    height: 100px;
+    margin: auto;
+}
+
 
 .about {
 	float: left;
@@ -69,19 +114,6 @@ article {
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-aside {
-	float: right;
-	padding: 32px;
-	margin: 25px;
-	text-align: center;
-	background-color: #ffffff;
-	width: 270px;
-	margin-right: 240px;
-	margin-top: -395px;
-	border-style: solid;
-	border-color: #dddddd;
-	}
 
 div.gallery {
 	margin: 5px;
@@ -100,6 +132,21 @@ div.desc {
 	padding: 15px;
 	text-align: center;
 }
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 12pt;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2C5B61;
+  }
+
 
 .footer {
 	clear: both;
