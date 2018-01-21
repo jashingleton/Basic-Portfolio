@@ -39,32 +39,66 @@ ul {
 	position: relative;
 	right: 240px;
 	top: 20px;
-	
 }
 
-li {
-	display: inline;
-}
 
 a {
+	clear: both;
 	color: #777777;
 }
 
+article {
+	background-color: #ffffff;
+	margin-left: 160px;
+	margin-top: 40px;
+	margin-right: 553px;
+	padding: 32px;
+	line-height: 30px;
+	border-style: solid;
+	border-color: #dddddd;
+}
 
-section {
-	background-color: #ffffff
+.about {
+	float: left;
+	margin: 25px;
+	margin-top: 10px;
 
 }
 
+.teal {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 aside {
-	background-color: #ffffff;
-	text-align: center;
 	float: right;
+	padding: 32px;
+	margin: 25px;
+	text-align: center;
+	background-color: #ffffff;
+	width: 270px;
+	margin-right: 240px;
+	margin-top: -395px;
+	border-style: solid;
+	border-color: #dddddd;
 	}
 
-img {
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
 	float: left;
-	display: inline;
+	width: 180px;
+
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+
+div.desc {
+	padding: 15px;
+	text-align: center;
 }
 
 .footer {
